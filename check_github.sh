@@ -2,7 +2,6 @@
 # Script : check_github.sh
 # Author : crea28.fr
 
-
 VERSION="1.1"
 
 # Exit codes

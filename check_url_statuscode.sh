@@ -15,6 +15,7 @@ STATE_WARNING=1
 STATE_CRITICAL=2
 STATE_UNKNOWN=3
 
+# URL listing
 address=(
 	'www.google.com'
 	'www.github.com'

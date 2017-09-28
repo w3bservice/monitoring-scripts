@@ -14,6 +14,7 @@ OUTPUT_OK=("");
 OUTPUT_WARN=("");
 OUTPUT_CRIT=("");
 
+# URL listing
 address=(
 		'www.mywebsite1.com'
 		'mywebsite2.com'
