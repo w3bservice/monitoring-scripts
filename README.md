@@ -24,3 +24,12 @@ It's free to use and modify.
 #### check_if_dead.sh
 	check when a person is marked as dead on wikipedia
 	w3m must be installed on the machine
+
+#### check_galera_cluster.sh
+	check your galera cluster
+	./check_galera_cluster.sh cluster_size (modify the node paramater)
+	./check_galera_cluster.sh cluster_status
+	./check_galera_cluster.sh cluster_ready
+	./check_galera_cluster.sh cluster_connected
+	./check_galera_cluster.sh cluster_local_state
+	./check_galera_cluster.sh cluster_replication_flow
