@@ -33,3 +33,6 @@ It's free to use and modify.
 	./check_galera_cluster.sh cluster_connected
 	./check_galera_cluster.sh cluster_local_state
 	./check_galera_cluster.sh cluster_replication_flow
+
+#### check_mysql_repl.sh
+	check the status of a MySQL/MariaDB cluster
