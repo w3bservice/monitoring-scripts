@@ -27,7 +27,7 @@ It's free to use and modify.
 
 #### check_galera_cluster.sh
 	check your galera cluster
-	./check_galera_cluster.sh cluster_size (modify the node paramater)
+	./check_galera_cluster.sh cluster_size (modify the node parameter)
 	./check_galera_cluster.sh cluster_status
 	./check_galera_cluster.sh cluster_ready
 	./check_galera_cluster.sh cluster_connected
@@ -36,3 +36,6 @@ It's free to use and modify.
 
 #### check_mysql_repl.sh
 	check the status of a MySQL/MariaDB cluster
+
+#### check_uptime.sh
+	check the uptime of a linux server. Only check the reboot
