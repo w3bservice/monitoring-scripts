@@ -22,7 +22,7 @@ address=(
 
 for url in "${address[@]}"
 do
-	output=$(echo | openssl s_client -connect $url:443 2>/dev/null | openssl x509 -noout -dates)
+	output=$(echo | openssl s_client -connect $url:443 -servername $url 2>/dev/null | openssl x509 -noout -dates)
 	start_date=$(echo $output | sed 's/.*notBefore=\(.*\).*not.*/\1/g')
 	end_date=$(echo $output | sed 's/.*notAfter=\(.*\)$/\1/g')
 	start_epoch=$(date +%s -d "$start_date")
