@@ -46,10 +46,12 @@ done
 if [ "${#OUTPUT_CRIT[@]}" != '1' ]; then
  	printf "CRITICAL - URLs\n";
 	echo "${OUTPUT_CRIT[@]}"
+	echo "${OUTPUT_WARN[@]}"
 	exit ${STATE_CRIT};
 elif [ "${#OUTPUT_WARN[@]}" != '1' ]; then
 	printf "WARNING - URLs\n";
 	echo "${OUTPUT_WARN[@]}"
+	echo "${OUTPUT_CRIT[@]}"
 	exit ${STATE_WARN};
 else
 	printf "OK - URLs ${OUTPUT[@]}\n";
