@@ -34,11 +34,11 @@ done
 
 if [ "${#OUTPUT_WARN[@]}" != '1' ]; then
         printf "WARNING - URLs\n";
-        echo "${OUTPUT_WARN[@]}"                                                                                                                                                                   exit ${STATE_WARNING};
+	echo "${OUTPUT_WARN[@]}";
+	exit ${STATE_WARNING};
 else
         printf "OK - URLs ${OUTPUT_OK[@]}\n";
         exit ${STATE_OK};
 fi
-
 
 exit ${STATE_UNKNOWN};
