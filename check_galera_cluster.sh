@@ -9,6 +9,7 @@ ST_CR=2
 ST_UK=3
 
 # default values
+# can be replaced in using grep with .my.cnf
 port=''
 mysqlhost=''
 mysqluser=''
