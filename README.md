@@ -39,3 +39,6 @@ It's free to use and modify.
 
 #### check_uptime.sh
 	check the uptime of a linux server. Only check the reboot
+
+#### check_psql_replication_delay.sh
+	(used with sudo) check the delay between master and slave (read-only) postgresql servers.
